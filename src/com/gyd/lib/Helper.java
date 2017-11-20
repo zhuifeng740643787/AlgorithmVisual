@@ -5,6 +5,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.geom.Ellipse2D;
 import java.awt.geom.Rectangle2D;
+import java.util.Set;
 
 /**
  * Created by gongyidong on 2017/11/16.
@@ -125,5 +126,23 @@ public class Helper {
         }
     }
 
+
+    public static void printArray(int arr[], int n) {
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr[i] + (i == n - 1 ? "\n" : " "));
+        }
+    }
+
+
+    public static Color[] randomColors(int n) {
+        if (n <= 0) {
+            return null;
+        }
+        Color[] colors = new Color[n];
+        for (int i = 0; i < n; i++) {
+            colors[i] = new Color((int)(Math.random() * 0x1000000));
+        }
+        return colors;
+    }
 
 }
