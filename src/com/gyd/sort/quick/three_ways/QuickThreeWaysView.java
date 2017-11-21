@@ -1,18 +1,19 @@
-package com.gyd.sort.merge;
+package com.gyd.sort.quick.three_ways;
 
 import com.gyd.lib.AlgorithmFrame;
 import com.gyd.lib.Helper;
 import com.gyd.lib.Panel;
+import com.gyd.sort.quick.QuickData;
 
 import java.awt.*;
 
 /**
- * Created by gongyidong on 2017/11/16.
+ * Created by gongyidong on 2017/11/21.
  */
-public class MergeView extends AlgorithmFrame {
+public class QuickThreeWaysView extends AlgorithmFrame {
 
 
-    public MergeView(String title, int canvasWidth, int canvasHeight) {
+    public QuickThreeWaysView(String title, int canvasWidth, int canvasHeight) {
         super(title, canvasWidth, canvasHeight);
     }
 
@@ -21,10 +22,10 @@ public class MergeView extends AlgorithmFrame {
         canvas = new Canvas();
     }
 
-    private MergeData data;
+    private QuickData data;
 
     // 渲染
-    public void render(MergeData data) {
+    public void render(QuickData data) {
         this.data = data;
         // 重新绘制画布
         repaint();
@@ -71,9 +72,15 @@ public class MergeView extends AlgorithmFrame {
             for (int i = 0; i < data.N(); i++) {
                 Helper.setColor(g2d, Helper.Grey);
                 if (i >= data.l && i <= data.r) {
-                    Helper.setColor(g2d, Helper.Green);
+                    Helper.setColor(g2d, Helper.LightGreen);
                 }
-                if (i >= data.l && i <= data.mergeIndex) {
+                if ((i > data.l && i <= data.lt) || (i>=data.gt && i<=data.r)) {
+                    Helper.setColor(g2d, Helper.Cyan);
+                }
+                if (i == data.currentPovit) {
+                    Helper.setColor(g2d, Helper.Yellow);
+                }
+                if (data.fixedPovits[i]) {
                     Helper.setColor(g2d, Helper.Red);
                 }
 
@@ -86,3 +93,4 @@ public class MergeView extends AlgorithmFrame {
 
 
 }
+

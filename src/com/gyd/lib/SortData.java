@@ -32,11 +32,12 @@ public class SortData {
         numbers = new int[N];
 
         if (dataType == TYPE.NearlyIdentical) {
-            min = Math.min(min, 5);
+            min = Math.max(min, 100);
+            max = min + 10;
         }
 
         for (int i = 0; i < N; i++) {
-            numbers[i] = (int) (Math.random() * (max)) + min;
+            numbers[i] = (int) (Math.random() * (max - min)) + min;
         }
 
         if (dataType == TYPE.NearlyOrdered) {
@@ -49,7 +50,7 @@ public class SortData {
             }
         }
 
-
+        init();
     }
 
     public SortData(int N, int max, int min) {
@@ -68,6 +69,7 @@ public class SortData {
         }
     }
 
+    public void init() {}
     public int N() {
         return N;
     }

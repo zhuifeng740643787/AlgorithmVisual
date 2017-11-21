@@ -7,13 +7,13 @@ import com.gyd.lib.SortData;
  */
 public class MergeData extends SortData {
 
-    public int orderedIndex = 0; //已排好序的索引[0...orderIndex]
-    public int compareCurrentIndex = -1; //当前要排序的索引
-    public int insertIndex= -1; //要插入的索引位置
+    public int l = -1, r = -1; //要进行归并的区间[l...r]
+    public int mergeIndex = -1; //当前要归并的索引
 
     public MergeData(int N, int max, int min, TYPE dataType) {
         super(N, max, min, dataType);
     }
+
     public MergeData(int N, int max, int min) {
         super(N, max, min);
     }
