@@ -3,6 +3,7 @@ package com.gyd.sort.quick.three_ways;
 import com.gyd.lib.AlgorithmController;
 import com.gyd.lib.AlgorithmThread;
 import com.gyd.lib.Helper;
+import com.gyd.lib.SortData;
 import com.gyd.sort.quick.QuickData;
 
 import java.awt.*;
@@ -21,7 +22,7 @@ public class QuickThreeWaysController extends AlgorithmController {
 
     @Override
     public void initData() {
-        data = new QuickData(N, screenHeight - 1, 1, QuickData.TYPE.NearlyOrdered);
+        data = new QuickData(N, screenHeight - 1, 1, QuickData.TYPE.NearlyIdentical);
     }
 
     @Override
@@ -51,10 +52,10 @@ public class QuickThreeWaysController extends AlgorithmController {
 
     private void _run() {
         Helper.printArray(data.getNumbers(), data.N());
-        setData(-1, -1, -1, -1, -1,-1, -1);
+        setData(-1, -1, -1, -1, -1, -1, -1);
         // 三路快速排序
         _quickSort3Ways(0, data.N() - 1);
-        setData(0, data.N() - 1, -1, -1, -1,-1, -1);
+        setData(0, data.N() - 1, -1, -1, -1, -1, -1);
         Helper.printArray(data.getNumbers(), data.N());
     }
 
@@ -95,16 +96,14 @@ public class QuickThreeWaysController extends AlgorithmController {
 
 
     // 更新数据
-    private void setData(int l, int r, int fixedPivot, int currentPivot,int currentIndex, int lt, int gt) {
+    private void setData(int l, int r, int fixedPivot, int currentPivot, int currentIndex, int lt, int gt) {
         data.l = l;
         data.r = r;
         if (fixedPivot >= 0 && fixedPivot < data.N()) {
             int index = fixedPivot;
-            while (index < data.N()) {
-                if (data.get(index) == data.get(fixedPivot)) {
-                    data.fixedPovits[index] = true;
-                    index++;
-                }
+            while (index < data.N() && data.get(index) == data.get(fixedPivot)) {
+                data.fixedPovits[index] = true;
+                index++;
             }
         }
         data.currentPovit = currentPivot;

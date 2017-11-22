@@ -1,6 +1,7 @@
 package com.gyd;
 
 import com.gyd.lib.Helper;
+import com.gyd.sort.heap.HeapController;
 import com.gyd.sort.quick.normal.QuickController;
 import com.gyd.sort.quick.three_ways.QuickThreeWaysController;
 import com.gyd.sort.quick.two_ways.QuickTwoWaysController;
@@ -30,7 +31,8 @@ public class Main extends JFrame {
 //        MergeController controller = new MergeController(screenWidth, screenHeight, 100);
 //        QuickThreeWaysController controller = new QuickThreeWaysController(screenWidth, screenHeight, 100);
 //        QuickTwoWaysController controller = new QuickTwoWaysController(screenWidth, screenHeight, 10);
-        QuickThreeWaysController controller = new QuickThreeWaysController(screenWidth, screenHeight, 100);
+//        QuickThreeWaysController controller = new QuickThreeWaysController(screenWidth, screenHeight, 100);
+        HeapController controller = new HeapController(screenWidth, screenHeight, 100);
         controller.run();
 //        test();
     }
@@ -47,33 +49,35 @@ public class Main extends JFrame {
         Arrays.sort(d1);
         Helper.printArray(d1, n);
 
-        sort(data, 0, n - 1);
-
+        heapify(data, n);
+        for (int i = n - 1; i > 0; i--) {
+            swap(data, 0, i);
+            shitDown(data, i, 0);
+        }
 
         Helper.printArray(data, n);
     }
 
-
-    // 对[l...r]进行归并排序
-    private static void sort(int[] data, int l, int r) {
-        if (l >= r) {
-            return;
+    private static void heapify(int[] data, int n) {
+        for (int i = (n - 1 - 1) / 2; i >= 0; i--) {
+            shitDown(data, n, i);
         }
-        int v = data[l];
-        // [l+1...lt] < v, [lt+1...i) == v, [gt...r] > v
-        int i = l + 1, lt = l, gt = r + 1;
-        for (; i < gt; i++) {
-            if (data[i] > v) {
-                swap(data, --gt, i--);
-            } else if (data[i] < v) {
-                swap(data, ++lt, i);
-            }
-        }
-        // 将v放入合适的位置
-        swap(data, l, lt--);
-        sort(data, l, lt);
-        sort(data, gt, r);
     }
+
+    private static void shitDown(int[] data, int n, int k) {
+        while (2 * k + 1 < n) {
+            int j = 2 * k + 1;
+            if (j + 1 < n && data[j] < data[j + 1]) {
+                j++;
+            }
+            if (data[k] >= data[j]) {
+                break;
+            }
+            swap(data, k, j);
+            k = j;
+        }
+    }
+
 
     private static void swap(int[] data, int i, int j) {
         int tmp = data[i];

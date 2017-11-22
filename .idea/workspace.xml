@@ -2,31 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59b2de56-24d7-4a21-9fb5-a2889bcc283b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyd/lib/AlgorithmController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyd/lib/AlgorithmThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyd/sort/quick/QuickData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyd/sort/quick/normal/QuickController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyd/sort/quick/normal/QuickView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyd/sort/quick/three_ways/QuickThreeWaysController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyd/sort/quick/three_ways/QuickThreeWaysView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyd/sort/quick/two_ways/QuickTwoWaysController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyd/sort/quick/two_ways/QuickTwoWaysView.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/AlgorithmVisual/com/gyd/sort/merge/MergeController$KeyboardLister.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AlgorithmVisual/com/gyd/Main.class" afterPath="$PROJECT_DIR$/out/production/AlgorithmVisual/com/gyd/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AlgorithmVisual/com/gyd/lib/Helper.class" afterPath="$PROJECT_DIR$/out/production/AlgorithmVisual/com/gyd/lib/Helper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AlgorithmVisual/com/gyd/lib/SortData.class" afterPath="$PROJECT_DIR$/out/production/AlgorithmVisual/com/gyd/lib/SortData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AlgorithmVisual/com/gyd/sort/merge/MergeController$1.class" afterPath="$PROJECT_DIR$/out/production/AlgorithmVisual/com/gyd/sort/merge/MergeController$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AlgorithmVisual/com/gyd/sort/merge/MergeController.class" afterPath="$PROJECT_DIR$/out/production/AlgorithmVisual/com/gyd/sort/merge/MergeController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AlgorithmVisual/com/gyd/sort/merge/MergeData.class" afterPath="$PROJECT_DIR$/out/production/AlgorithmVisual/com/gyd/sort/merge/MergeData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AlgorithmVisual/com/gyd/sort/merge/MergeView$Canvas.class" afterPath="$PROJECT_DIR$/out/production/AlgorithmVisual/com/gyd/sort/merge/MergeView$Canvas.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AlgorithmVisual/com/gyd/sort/merge/MergeView.class" afterPath="$PROJECT_DIR$/out/production/AlgorithmVisual/com/gyd/sort/merge/MergeView.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyd/sort/heap/HeapController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyd/sort/heap/HeapData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gyd/sort/heap/HeapView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AlgorithmVisual/com/gyd/sort/quick/three_ways/QuickThreeWaysController$1.class" afterPath="$PROJECT_DIR$/out/production/AlgorithmVisual/com/gyd/sort/quick/three_ways/QuickThreeWaysController$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AlgorithmVisual/com/gyd/sort/quick/three_ways/QuickThreeWaysController.class" afterPath="$PROJECT_DIR$/out/production/AlgorithmVisual/com/gyd/sort/quick/three_ways/QuickThreeWaysController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyd/Main.java" afterPath="$PROJECT_DIR$/src/com/gyd/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyd/lib/Helper.java" afterPath="$PROJECT_DIR$/src/com/gyd/lib/Helper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyd/lib/SortData.java" afterPath="$PROJECT_DIR$/src/com/gyd/lib/SortData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyd/sort/merge/MergeController.java" afterPath="$PROJECT_DIR$/src/com/gyd/sort/merge/MergeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyd/sort/merge/MergeData.java" afterPath="$PROJECT_DIR$/src/com/gyd/sort/merge/MergeData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyd/sort/merge/MergeView.java" afterPath="$PROJECT_DIR$/src/com/gyd/sort/merge/MergeView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gyd/sort/quick/three_ways/QuickThreeWaysController.java" afterPath="$PROJECT_DIR$/src/com/gyd/sort/quick/three_ways/QuickThreeWaysController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,8 +63,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gyd/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="32" column="66" lean-forward="true" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
+            <state relative-caret-position="135">
+              <caret line="34" column="47" lean-forward="false" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,15 +72,72 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuickThreeWaysController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QuickThreeWaysController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gyd/sort/quick/three_ways/QuickThreeWaysController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+            <state relative-caret-position="-817">
+              <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
               <folding>
-                <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#514#515#0" expanded="true" />
+                <element signature="e#492#493#0" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HeapController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/gyd/sort/heap/HeapController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="79" lean-forward="false" selection-start-line="23" selection-start-column="79" selection-end-line="23" selection-end-column="79" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
+                <element signature="e#595#596#0" expanded="true" />
+                <marker date="1511344562884" expanded="false" signature="964:987" ph=" { " />
+                <marker date="1511344562884" expanded="false" signature="999:1017" ph=" }" />
+                <marker date="1511344562884" expanded="false" signature="1081:1104" ph=" { " />
+                <marker date="1511344562884" expanded="false" signature="1111:1129" ph=" }" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HeapView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gyd/sort/heap/HeapView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="524">
+              <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HeapData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gyd/sort/heap/HeapData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+              <folding>
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuickData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gyd/sort/quick/QuickData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="28" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -124,10 +164,15 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>MergeData</find>
+      <find>QuickView</find>
+      <find>QuickData</find>
+      <find>QuickTwoWaysView</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>QuickData</replace>
+      <replace>HeapData</replace>
+      <replace>HeapView</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -141,10 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/gyd/random_simulate/share_money/Circle.java" />
-        <option value="$PROJECT_DIR$/src/com/gyd/random_simulate/share_money/CircleController.java" />
-        <option value="$PROJECT_DIR$/src/com/gyd/random_simulate/share_money/MoneyController.java" />
-        <option value="$PROJECT_DIR$/src/com/gyd/random_simulate/share_money/MoneyView.java" />
         <option value="$PROJECT_DIR$/src/com/gyd/random_simulate/monte_carlo/Point.java" />
         <option value="$PROJECT_DIR$/src/com/gyd/random_simulate/monte_carlo/Circle.java" />
         <option value="$PROJECT_DIR$/src/com/gyd/random_simulate/monte_carlo/PIView.java" />
@@ -189,9 +230,13 @@
         <option value="$PROJECT_DIR$/src/com/gyd/sort/quick/two_ways/QuickTwoWaysController.java" />
         <option value="$PROJECT_DIR$/src/com/gyd/sort/quick/normal/QuickController.java" />
         <option value="$PROJECT_DIR$/src/com/gyd/sort/quick/three_ways/QuickTwoWaysView.java" />
-        <option value="$PROJECT_DIR$/src/com/gyd/Main.java" />
         <option value="$PROJECT_DIR$/src/com/gyd/sort/quick/three_ways/QuickThreeWaysView.java" />
         <option value="$PROJECT_DIR$/src/com/gyd/sort/quick/three_ways/QuickThreeWaysController.java" />
+        <option value="$PROJECT_DIR$/src/com/gyd/sort/heap/HeapModel.java" />
+        <option value="$PROJECT_DIR$/src/com/gyd/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/gyd/sort/heap/HeapData.java" />
+        <option value="$PROJECT_DIR$/src/com/gyd/sort/heap/HeapView.java" />
+        <option value="$PROJECT_DIR$/src/com/gyd/sort/heap/HeapController.java" />
       </list>
     </option>
   </component>
@@ -353,67 +398,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="quick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="three_ways" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AlgorithmVisual" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AlgorithmVisual" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gyd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sort" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="normal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AlgorithmVisual" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AlgorithmVisual" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gyd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sort" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="merge" />
+              <option name="myItemId" value="heap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -448,16 +433,16 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="Quic&#9;FILE&#9;file:///Users/gongyidong/learn/back/java/AlgorithmVisual/src/com/gyd/sort/quick/QuickData.java&#10;main&#9;FILE&#9;file:///Users/gongyidong/learn/back/java/AlgorithmVisual/src/com/gyd/Main.java&#10;Main&#9;FILE&#9;file:///Users/gongyidong/learn/back/java/AlgorithmVisual/src/com/gyd/Main.java&#10;Help&#9;FILE&#9;file:///Users/gongyidong/learn/back/java/AlgorithmVisual/src/com/gyd/lib/Helper.java&#10;Bu&#9;FILE&#9;file:///Users/gongyidong/learn/back/java/AlgorithmVisual/src/com/gyd/sort/bubble/BubbleController.java&#10;Sor&#9;FILE&#9;file:///Users/gongyidong/learn/back/java/AlgorithmVisual/src/com/gyd/lib/SortData.java&#10;Inser&#9;FILE&#9;file:///Users/gongyidong/learn/back/java/AlgorithmVisual/src/com/gyd/sort/insertion/InsertionController.java&#10;Selec&#9;FILE&#9;file:///Users/gongyidong/learn/back/java/AlgorithmVisual/src/com/gyd/sort/selection/SelectionView.java&#10;Hel&#9;FILE&#9;file:///Users/gongyidong/learn/back/java/AlgorithmVisual/src/com/gyd/lib/Helper.java&#10;Pan&#9;FILE&#9;file:///Users/gongyidong/learn/back/java/AlgorithmVisual/src/com/gyd/lib/Panel.java" />
+    <property name="SearchEverywhereHistoryKey" value="HeapDa&#9;FILE&#9;file:///Users/gongyidong/learn/back/java/AlgorithmVisual/src/com/gyd/sort/heap/HeapData.java&#10;main&#9;FILE&#9;file:///Users/gongyidong/learn/back/java/AlgorithmVisual/src/com/gyd/Main.java&#10;Quic&#9;FILE&#9;file:///Users/gongyidong/learn/back/java/AlgorithmVisual/src/com/gyd/sort/quick/QuickData.java&#10;Main&#9;FILE&#9;file:///Users/gongyidong/learn/back/java/AlgorithmVisual/src/com/gyd/Main.java&#10;Help&#9;FILE&#9;file:///Users/gongyidong/learn/back/java/AlgorithmVisual/src/com/gyd/lib/Helper.java&#10;Bu&#9;FILE&#9;file:///Users/gongyidong/learn/back/java/AlgorithmVisual/src/com/gyd/sort/bubble/BubbleController.java&#10;Sor&#9;FILE&#9;file:///Users/gongyidong/learn/back/java/AlgorithmVisual/src/com/gyd/lib/SortData.java&#10;Inser&#9;FILE&#9;file:///Users/gongyidong/learn/back/java/AlgorithmVisual/src/com/gyd/sort/insertion/InsertionController.java&#10;Selec&#9;FILE&#9;file:///Users/gongyidong/learn/back/java/AlgorithmVisual/src/com/gyd/sort/selection/SelectionView.java&#10;Hel&#9;FILE&#9;file:///Users/gongyidong/learn/back/java/AlgorithmVisual/src/com/gyd/lib/Helper.java&#10;Pan&#9;FILE&#9;file:///Users/gongyidong/learn/back/java/AlgorithmVisual/src/com/gyd/lib/Panel.java" />
     <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gyd.sort.heap" />
       <recent name="com.gyd.sort.quick.two_ways" />
       <recent name="com.gyd.sort.quick.normal" />
       <recent name="com.gyd.sort.shell" />
       <recent name="com.gyd.random_simulate.monte_carlo" />
-      <recent name="com.gyd.circle_move" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/gyd/sort/quick/three_ways" />
@@ -942,12 +927,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510885461045</updated>
-      <workItem from="1510885462496" duration="85662000" />
+      <workItem from="1510885462496" duration="91721000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85662000" />
+    <option name="totallyTimeSpent" value="91721000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="825" extended-state="6" />
@@ -965,7 +950,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24206349" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36243385" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -996,7 +981,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="21" />
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1005,32 +990,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/gyd/random_simulate/money/CircleMoveView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gyd/circle_move/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gyd/random_simulate/share_money/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-328">
-          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gyd/random_simulate/share_money/MoneyController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1297,10 +1256,10 @@
         <state relative-caret-position="164">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
-            <element signature="e#877#878#0" expanded="true" />
-            <element signature="e#909#910#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-            <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="false" />
+            <element signature="e#909#910#0" expanded="false" />
+            <element signature="e#938#939#0" expanded="false" />
+            <element signature="e#970#971#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1374,20 +1333,9 @@
         <state relative-caret-position="289">
           <caret line="42" column="34" lean-forward="false" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1653#1654#0" expanded="true" />
-            <element signature="e#1677#1678#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gyd/sort/quick/QuickData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="56" lean-forward="false" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-          <folding>
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1653#1654#0" expanded="false" />
+            <element signature="e#1677#1678#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1397,7 +1345,7 @@
         <state relative-caret-position="-68">
           <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1444,16 +1392,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gyd/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="32" column="66" lean-forward="true" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gyd/sort/quick/three_ways/QuickThreeWaysView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -1462,13 +1400,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gyd/sort/quick/QuickData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="28" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gyd/sort/quick/three_ways/QuickThreeWaysController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+        <state relative-caret-position="-817">
+          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
           <folding>
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gyd/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="34" column="47" lean-forward="false" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gyd/sort/heap/HeapData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding>
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gyd/sort/heap/HeapView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gyd/sort/heap/HeapController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="79" lean-forward="false" selection-start-line="23" selection-start-column="79" selection-end-line="23" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
             <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <marker date="1511344562884" expanded="false" signature="964:987" ph=" { " />
+            <marker date="1511344562884" expanded="false" signature="999:1017" ph=" }" />
+            <marker date="1511344562884" expanded="false" signature="1081:1104" ph=" { " />
+            <marker date="1511344562884" expanded="false" signature="1111:1129" ph=" }" />
           </folding>
         </state>
       </provider>
